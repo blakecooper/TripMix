@@ -7,28 +7,17 @@
 //
 
 import XCTest
+import CoreLocation
+
 @testable import TripMix
 
 class TripMixTests: XCTestCase {
 
-    override func setUp() {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    //MARK: Spot class tests
+    
+    func testSpotInitializationSucceeds() {
+        let namedSpot = Spot.init(name: "Botannical Gardens", location: CLLocation.init(latitude: 42.836003, longitude: -78.824711), distance: 0.002)
+        XCTAssertNotNil(namedSpot)
+        
     }
-
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
 }

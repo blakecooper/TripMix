@@ -15,6 +15,7 @@
 		25BDB7A122DE24F2009E2A7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BDB79F22DE24F2009E2A7B /* LaunchScreen.storyboard */; };
 		25BDB7AC22DE24F2009E2A7B /* TripMixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BDB7AB22DE24F2009E2A7B /* TripMixTests.swift */; };
 		25BDB7B722DE24F2009E2A7B /* TripMixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BDB7B622DE24F2009E2A7B /* TripMixUITests.swift */; };
+		25BDB7C722E0ECAB009E2A7B /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BDB7C622E0ECAB009E2A7B /* Spot.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		25BDB7B222DE24F2009E2A7B /* TripMixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripMixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BDB7B622DE24F2009E2A7B /* TripMixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripMixUITests.swift; sourceTree = "<group>"; };
 		25BDB7B822DE24F2009E2A7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BDB7C622E0ECAB009E2A7B /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				25BDB79322DE24EF009E2A7B /* AppDelegate.swift */,
 				25BDB79522DE24EF009E2A7B /* ViewController.swift */,
+				25BDB7C622E0ECAB009E2A7B /* Spot.swift */,
 				25BDB79722DE24EF009E2A7B /* Main.storyboard */,
 				25BDB79D22DE24F2009E2A7B /* Assets.xcassets */,
 				25BDB79F22DE24F2009E2A7B /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				25BDB79C22DE24EF009E2A7B /* TripMix.xcdatamodeld in Sources */,
 				25BDB79622DE24EF009E2A7B /* ViewController.swift in Sources */,
 				25BDB79422DE24EF009E2A7B /* AppDelegate.swift in Sources */,
+				25BDB7C722E0ECAB009E2A7B /* Spot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
